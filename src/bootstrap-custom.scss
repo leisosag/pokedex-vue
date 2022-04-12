@@ -1,0 +1,16 @@
+$theme-colors: (
+	'dark': #353d64,
+	'warning': #f9bc1a,
+);
+
+.close {
+	background-color: transparent;
+	border: none;
+	color: $white;
+}
+
+.modal-header {
+	border-bottom: none !important;
+}
+
+@import '~bootstrap/scss/bootstrap';
